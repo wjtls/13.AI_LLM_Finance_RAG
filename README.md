@@ -1,4 +1,8 @@
-Finance RAG_RL 모델														
+Finance RAG_RL 모델
+
+라이브 운용 주소 : https://www.youtube.com/@AI-lo8cy/streams
+
+
 1. Finance RAG_RL 모델 (분석, 최적행동 추천 및 QA모델) : 
 미국 금융 시장의 실시간 이슈, 경제지표, 주가를 활용하여 보고서 작성 및 사용자 QA 							
    1) 사용처 , 용도, 성과 (개인프로젝트로 개발) 	
