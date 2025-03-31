@@ -114,7 +114,6 @@ from langchain.chains.query_constructor.ir import (
 import a_Env as a_Env
 from a_Env import Env
 from c_Fusion_Retriever import FusionRetriever
-from pinecone_text.sparse import BM25Encoder
 from langchain_community.retrievers import PineconeHybridSearchRetriever
 
 

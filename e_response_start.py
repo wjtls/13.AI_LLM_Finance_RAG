@@ -38,7 +38,6 @@ from a_Agent_sys_prompt import sys_class
 from dotenv import load_dotenv
 # API 키 정보 로드
 load_dotenv(override=True)
-
 # 시스템
 import time
 import os, sys
@@ -60,23 +59,29 @@ os.environ['PYTHONPATH'] = os.path.abspath('')
 sys.path.append(os.environ['PYTHONPATH'])
 
 # 랭스미스 추적
-try:
-    logging.langsmith("hscho_AI")
-except Exception as e:
-    print(f'랭스미스 연결 실패 {e}')
+#logging.langsmith("hscho_AI")
+
+
+
+
+
+
+
+
+
+
+
+
 # ---------------------------환경 세팅
 # 환경 호출
-import a_Env
-import a_API_access
-from d_Agent import Result_Agent
-import a_Agent_sys_prompt as sys_prompt
-import datetime
 
+import a_Env
+from d_Agent import Result_Agent
+
+import datetime
 import a_market_condition
 from c_Advance_method import AdvanceMethod
 from d_langgraph_node import Graph_node as RAG_Graph
-
-
 
 class Response_class:
     def __init__(self, meta_data_filter, QA_type):
@@ -98,7 +103,6 @@ class Response_class:
         self.env_class = a_Env.Env(self.db_data_params)  # 환경
         self.sys_prompt = sys_class() #프롬프트
         self.market_condition_class = a_market_condition.market_condition()
-
         #llm 정보
         self.llm_info = {
             "model": "gemini-2.0-flash", #"gemini-2.0-flash","gpt-4o"
@@ -108,7 +112,6 @@ class Response_class:
             "context_window_size": 128000,
             "embedding_model": "text-embedding-3-large"
         }
-
         #최종응답, 중간 노드 llm
         self.node_llm = ChatGoogleGenerativeAI(model=self.llm_info.get('model', "gemini-2.0-flash"),
                                                temperature=self.llm_info.get('temperature', 0.2),
@@ -127,6 +130,8 @@ class Response_class:
 
         #기타
         self.QA_type=QA_type #출력타입
+
+
 
     def load_AI_trader_result(self): #AI trader 의 매매의사결정 내역
         data = []

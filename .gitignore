@@ -4,19 +4,31 @@
 *.jpg
 *.txt
 *.mp4
+*.html
 
 *API*            # 파일명에 'API'가 포함된 모든 파일 무시
 *api* 
 *env* 
 *access* 
+*access.py* 
 *Docker* 
 *prompt*
 *secrete*
 *백업*
 *pycache*
-*AI_langchain_method*
 *ind*
 *real_trading*
 *future_*         #가중치들 제거
 *token*
 *train*
+*critic*
+*actor*
+*연습*
+*git*
+*start*
+*server*
+*params*
+*user*
+*a_streamlit_env*
+*AI_langchain_method*
+*.env*
