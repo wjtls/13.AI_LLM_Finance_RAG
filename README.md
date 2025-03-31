@@ -48,9 +48,8 @@ Finance RAG_RL 모델
        목적으로 개발하여 장착
 
                 
-4 사용 기술 								
-    1] LLM,RAG 연관 : langchain, langGraph, Advanced RAG , Modular RAG ,
-Vector DB (pineconeDB,Qdrant,Elasticsearch), reranker, query decomposition, Agentic tool)       
+4 사용 기술 <br>								
+    1] LLM,RAG 연관 : langchain, langGraph, Advanced RAG , Modular RAG ,Vector DB (pineconeDB,Qdrant,Elasticsearch), reranker, query decomposition, Agentic tool)       
     2] RL,DL,파인튜닝 연관 : pytorch, 강화학습(Reinforcement learning),머신러닝, 딥러닝			
 
     
