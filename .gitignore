@@ -1,0 +1,22 @@
+*.json           # 모든 .json 파일 무시
+*.wav
+*.png
+*.jpg
+*.txt
+*.mp4
+
+*API*            # 파일명에 'API'가 포함된 모든 파일 무시
+*api* 
+*env* 
+*access* 
+*Docker* 
+*prompt*
+*secrete*
+*백업*
+*pycache*
+*AI_langchain_method*
+*ind*
+*real_trading*
+*future_*         #가중치들 제거
+*token*
+*train*
