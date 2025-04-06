@@ -1,6 +1,8 @@
 Finance RAG_RL 모델
 
 라이브 운용 주소 : https://www.youtube.com/@AI-lo8cy/streams
+view 이미지 : ![image](https://github.com/user-attachments/assets/c610920c-6ee2-48eb-9e58-cd2c3e86d613)
+
 
 
 1. Finance RAG_RL 모델 (분석, 최적행동 추천 및 QA모델) : 
