@@ -28,7 +28,7 @@ view 이미지 : ![image](https://github.com/user-attachments/assets/c610920c-6e
    2) AI predictor 와 Modular RAG 모델의 응답생성 (사용자 QA 또는 보고서)
      ![image](https://github.com/user-attachments/assets/beffd7e5-6805-44c9-9b57-6c8e4e20f84e)
    3) 결과를 웹에 가시화 (AI의 실시간 매매의사결정 추천, QA, 보고서)
-    ![image](https://github.com/user-attachments/assets/18c5bba2-9a96-4083-a5fc-886556f75b9d)
+     ![image](https://github.com/user-attachments/assets/c610920c-6ee2-48eb-9e58-cd2c3e86d613)
       1] 사용자 질문 : “미국 시장 분석좀 해줘” 의 응답결과
       2] Finance AI 모델의 참고 데이터 (우측 생성 응답) : 미국의 실시간 이슈, 과거이슈, 
                                    AI predictor의 기술적분석,경제지표,외환정보 등을 참고
